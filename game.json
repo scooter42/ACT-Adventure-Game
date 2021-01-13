@@ -1,0 +1,309 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": false,
+    "folderProject": true,
+    "orientation": "default",
+    "packageName": "com.example.gamename",
+    "projectUuid": "7597f815-864f-4fcd-b43d-4995fae3ad51",
+    "scaleMode": "nearest",
+    "sizeOnStartupMode": "",
+    "useDeprecatedZeroAsDefaultZOrder": true,
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "Project",
+    "author": "Scott Jacobson",
+    "windowWidth": 1320,
+    "windowHeight": 880,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 10,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "showGDevelopSplash": true
+    },
+    "extensionProperties": [],
+    "extensions": [
+      {
+        "name": "BuiltinObject"
+      },
+      {
+        "name": "BuiltinAudio"
+      },
+      {
+        "name": "BuiltinVariables"
+      },
+      {
+        "name": "BuiltinTime"
+      },
+      {
+        "name": "BuiltinMouse"
+      },
+      {
+        "name": "BuiltinKeyboard"
+      },
+      {
+        "name": "BuiltinJoystick"
+      },
+      {
+        "name": "BuiltinCamera"
+      },
+      {
+        "name": "BuiltinWindow"
+      },
+      {
+        "name": "BuiltinFile"
+      },
+      {
+        "name": "BuiltinNetwork"
+      },
+      {
+        "name": "BuiltinScene"
+      },
+      {
+        "name": "BuiltinAdvanced"
+      },
+      {
+        "name": "Sprite"
+      },
+      {
+        "name": "BuiltinCommonInstructions"
+      },
+      {
+        "name": "BuiltinCommonConversions"
+      },
+      {
+        "name": "BuiltinStringInstructions"
+      },
+      {
+        "name": "BuiltinMathematicalTools"
+      },
+      {
+        "name": "BuiltinExternalLayouts"
+      }
+    ],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/first3.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\first3.PNG",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/consonant.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\consonant.PNG",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "arrow-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arrow-1-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "sound/c/2c.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\c\\2c.ogg",
+        "userAdded": false
+      },
+      {
+        "file": "sound/c/46c.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\c\\46c.ogg",
+        "userAdded": true
+      },
+      {
+        "file": "sound/c/21c.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\c\\21c.ogg",
+        "userAdded": true
+      },
+      {
+        "file": "sound/c/42c.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\c\\42c.ogg",
+        "userAdded": false
+      },
+      {
+        "file": "sound/c/64c.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\c\\64c.ogg",
+        "userAdded": false
+      },
+      {
+        "file": "sound/v/32v.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\v\\32v.ogg",
+        "userAdded": false
+      },
+      {
+        "file": "sound/v/40v.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\v\\40v.ogg",
+        "userAdded": true
+      },
+      {
+        "file": "sound/v/56v.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\v\\56v.ogg",
+        "userAdded": true
+      },
+      {
+        "file": "sound/c/space.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\c\\space.ogg",
+        "userAdded": true
+      },
+      {
+        "file": "sound/c/02c.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\c\\02c.ogg",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/arrow-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\arrow-1-0.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/arrow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\arrow.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/speak.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\speak.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-1-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/NewObject-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\NewObject-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/NewObject-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\NewObject-1-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-1-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/vowels.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\vowels.PNG",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/vowels-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\vowels-1.png",
+        "smoothed": false,
+        "userAdded": true
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/new-scene"
+    }
+  ],
+  "externalEvents": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/speak"
+    }
+  ],
+  "eventsFunctionsExtensions": [],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}

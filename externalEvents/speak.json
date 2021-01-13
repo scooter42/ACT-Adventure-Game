@@ -1,0 +1,16 @@
+{
+  "associatedLayout": "New scene",
+  "lastChangeTimeStamp": 0,
+  "name": "Speak",
+  "events": [
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::JsCode",
+      "inlineCode": "//Get scene variables\nvar variables = runtimeScene.getVariables();\nvar speech = variables.get(\"speech\").getAsString();\n\nspeak(speech);\n \n// say a message\nfunction speak(text, callback) {\n var u = new SpeechSynthesisUtterance();\n u.text = text;\n u.lang = 'en-US';\n \n u.onend = function () {\n if (callback) {\n callback();\n }\n };\n \n u.onerror = function (e) {\n if (callback) {\n callback(e);\n }\n };\n \n speechSynthesis.speak(u);\n}\n\n//Thanks to https://stephenwalther.com/archive/2015/01/05/using-html5-speech-recognition-and-text-to-speech\n//for the original code",
+      "parameterObjects": "",
+      "useStrict": false,
+      "eventsSheetExpanded": false
+    }
+  ]
+}
