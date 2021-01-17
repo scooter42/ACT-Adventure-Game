@@ -17,8 +17,8 @@
     "useDeprecatedZeroAsDefaultZOrder": true,
     "useExternalSourceFiles": false,
     "version": "1.0.0",
-    "name": "Project",
-    "author": "Scott Jacobson",
+    "name": "ACT Adventure",
+    "author": "Thomas Lafferty & Scott Jacobson",
     "windowWidth": 1320,
     "windowHeight": 880,
     "latestCompilationDirectory": "",
@@ -284,6 +284,240 @@
         "name": "gfx\\vowels-1.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/Galactica_Ranger_Extreme.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\Galactica_Ranger_Extreme.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/Galactica_Ranger_Extreme-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\Galactica_Ranger_Extreme-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/Galactica_Ranger_Extreme-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\Galactica_Ranger_Extreme-1-0.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/back.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\back.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/nodes-1427176_960_720.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\nodes-1427176_960_720.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/a.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\a.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/b.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\b.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/c.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\c.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/d.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\d.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/e.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\e.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/f.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\f.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/g.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\g.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/Room.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\Room.PNG",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/manfront.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\manfront.PNG",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/manback.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\manback.PNG",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/manside.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\manside.PNG",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/manright.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\manright.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/manleft.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\manleft.PNG",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -294,7 +528,15 @@
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/new-scene"
+      "referenceTo": "/layouts/menu"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/ai_brain"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/decoder"
     }
   ],
   "externalEvents": [
