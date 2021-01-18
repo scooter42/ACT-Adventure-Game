@@ -49,7 +49,7 @@
       "height": 63,
       "layer": "",
       "locked": false,
-      "name": "AIbrain",
+      "name": "RoomTxt",
       "persistentUuid": "46dacf8f-5836-47a1-b3d8-38f224c8dbe4",
       "width": 196,
       "x": 541,
@@ -68,7 +68,7 @@
       "name": "Decoder",
       "persistentUuid": "e9505bfc-47f7-44fa-acba-95b6a0ac5bec",
       "width": 0,
-      "x": 549,
+      "x": 528,
       "y": 397,
       "zOrder": 3,
       "numberProperties": [],
@@ -167,13 +167,13 @@
       }
     },
     {
-      "name": "AIbrain",
+      "name": "RoomTxt",
       "tags": "",
       "type": "BBText::BBText",
       "variables": [],
       "behaviors": [],
       "content": {
-        "text": "[outline=yellow]A.I. Brain[/outline]",
+        "text": "[outline=yellow]Room[/outline]",
         "opacity": 255,
         "fontSize": 42,
         "visible": true,
@@ -242,7 +242,7 @@
             "value": "SourisSurObjet"
           },
           "parameters": [
-            "AIbrain",
+            "RoomTxt",
             "",
             "",
             ""
@@ -269,7 +269,7 @@
           },
           "parameters": [
             "",
-            "\"AI_brain\"",
+            "\"Room\"",
             ""
           ],
           "subInstructions": []
