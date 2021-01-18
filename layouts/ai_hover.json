@@ -1,0 +1,565 @@
+{
+  "b": 0,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "AI_95hover",
+  "name": "AI_hover",
+  "oglFOV": 90,
+  "oglZFar": 500,
+  "oglZNear": 1,
+  "r": 0,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 0,
+  "uiSettings": {
+    "grid": true,
+    "gridB": 255,
+    "gridG": 180,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridR": 158,
+    "gridWidth": 32,
+    "snap": true,
+    "windowMask": false,
+    "zoomFactor": 0.112
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "AInetwork1",
+      "locked": false,
+      "name": "hovership",
+      "persistentUuid": "1df2d669-f52c-4885-af09-9befa008d8af",
+      "width": 0,
+      "x": 640,
+      "y": 416,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "AInetwork1",
+      "locked": false,
+      "name": "nodeblobs",
+      "persistentUuid": "5d587f32-2d48-40cb-a708-bc82594dada4",
+      "width": 0,
+      "x": 2000,
+      "y": 2000,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "AInetwork1",
+      "locked": false,
+      "name": "rocletpulse",
+      "persistentUuid": "1ee283e7-8aea-475c-9eeb-d070f7f0ed20",
+      "width": 0,
+      "x": 608,
+      "y": 416,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 4000,
+      "layer": "AInetwork1",
+      "locked": false,
+      "name": "nodes",
+      "persistentUuid": "cfbdc373-85dd-4f22-81df-d2b68cabf54b",
+      "width": 4000,
+      "x": 0,
+      "y": 0,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "name": "hovership",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [
+        {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+          "acceleration": 400,
+          "allowDiagonals": true,
+          "angleOffset": 0,
+          "angularMaxSpeed": 180,
+          "deceleration": 800,
+          "ignoreDefaultControls": false,
+          "maxSpeed": 200,
+          "rotateObject": true
+        }
+      ],
+      "animations": [
+        {
+          "name": "Galactica_Ranger_Extreme",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "gfx\\Galactica_Ranger_Extreme-1-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 49,
+                    "y": 67.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 50,
+                    "y": 67.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 141,
+                        "y": 54
+                      },
+                      {
+                        "x": 159,
+                        "y": 94
+                      },
+                      {
+                        "x": 132,
+                        "y": 109
+                      },
+                      {
+                        "x": 81,
+                        "y": 161
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "blocking",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewObject",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "gfx\\blobking.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "additive": false,
+      "alphaParam": "Mutable",
+      "angleParam": "Mutable",
+      "blueParam": "Random",
+      "destroyWhenNoParticles": true,
+      "emissionEditionSimpleMode": true,
+      "emitterAngleA": 0,
+      "emitterAngleB": 360,
+      "emitterForceMax": 0,
+      "emitterForceMin": 0,
+      "emitterXDirection": 0,
+      "emitterYDirection": 1,
+      "emitterZDirection": 0,
+      "flow": 20,
+      "friction": 0,
+      "gravityEditionSimpleMode": true,
+      "greenParam": "Random",
+      "maxParticleNb": 300,
+      "name": "nodeblobs",
+      "particleAlpha1": 128,
+      "particleAlpha2": 0,
+      "particleAlphaRandomness1": 0,
+      "particleAlphaRandomness2": 0,
+      "particleAngle1": 0,
+      "particleAngle2": 0,
+      "particleAngleRandomness1": 0,
+      "particleAngleRandomness2": 0,
+      "particleBlue1": 255,
+      "particleBlue2": 34,
+      "particleEditionSimpleMode": true,
+      "particleGravityX": 0,
+      "particleGravityY": 0,
+      "particleGravityZ": 0,
+      "particleGreen1": 255,
+      "particleGreen2": 255,
+      "particleLifeTimeMax": 8,
+      "particleLifeTimeMin": 6,
+      "particleRed1": 255,
+      "particleRed2": 0,
+      "particleSize1": 50,
+      "particleSize2": 300,
+      "particleSizeRandomness1": 0,
+      "particleSizeRandomness2": 0,
+      "redParam": "Enabled",
+      "rendererParam1": 32,
+      "rendererParam2": 32,
+      "rendererType": "Quad",
+      "sizeParam": "Mutable",
+      "tags": "",
+      "tank": -1,
+      "textureParticleName": "gfx\\glow.png",
+      "type": "ParticleSystem::ParticleEmitter",
+      "zoneRadius": 1900,
+      "variables": [],
+      "behaviors": []
+    },
+    {
+      "additive": false,
+      "alphaParam": "Mutable",
+      "angleParam": "Mutable",
+      "blueParam": "Random",
+      "destroyWhenNoParticles": false,
+      "emissionEditionSimpleMode": true,
+      "emitterAngleA": 0,
+      "emitterAngleB": 0,
+      "emitterForceMax": 0,
+      "emitterForceMin": 0,
+      "emitterXDirection": 0,
+      "emitterYDirection": 1,
+      "emitterZDirection": 0,
+      "flow": 45,
+      "friction": 0,
+      "gravityEditionSimpleMode": true,
+      "greenParam": "Random",
+      "maxParticleNb": 20,
+      "name": "rocletpulse",
+      "particleAlpha1": 204,
+      "particleAlpha2": 0,
+      "particleAlphaRandomness1": 0,
+      "particleAlphaRandomness2": 0,
+      "particleAngle1": 0,
+      "particleAngle2": 0,
+      "particleAngleRandomness1": 0,
+      "particleAngleRandomness2": 0,
+      "particleBlue1": 254,
+      "particleBlue2": 255,
+      "particleEditionSimpleMode": true,
+      "particleGravityX": 0,
+      "particleGravityY": 0,
+      "particleGravityZ": 0,
+      "particleGreen1": 19,
+      "particleGreen2": 255,
+      "particleLifeTimeMax": 2.5,
+      "particleLifeTimeMin": 0.5,
+      "particleRed1": 144,
+      "particleRed2": 255,
+      "particleSize1": 100,
+      "particleSize2": 300,
+      "particleSizeRandomness1": 0,
+      "particleSizeRandomness2": 0,
+      "redParam": "Enabled",
+      "rendererParam1": 6,
+      "rendererParam2": 1,
+      "rendererType": "Point",
+      "sizeParam": "Mutable",
+      "tags": "",
+      "tank": -1,
+      "textureParticleName": "",
+      "type": "ParticleSystem::ParticleEmitter",
+      "zoneRadius": 0,
+      "variables": [],
+      "behaviors": []
+    },
+    {
+      "name": "nodes",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "gfx\\nodes.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Opacity"
+          },
+          "parameters": [
+            "blocking",
+            "=",
+            "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "MettreAutour"
+          },
+          "parameters": [
+            "rocletpulse",
+            "hovership",
+            "5",
+            "180"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "CentreCamera"
+          },
+          "parameters": [
+            "",
+            "hovership",
+            "yes",
+            "\"AInetwork1\"",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "MettreAutour"
+          },
+          "parameters": [
+            "rocletpulse",
+            "hovership",
+            "5",
+            "180"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "KeyReleased"
+          },
+          "parameters": [
+            "",
+            "Num1"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "PopScene"
+          },
+          "parameters": [
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
+      "events": []
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 0,
+      "ambientLightColorG": 0,
+      "ambientLightColorR": 11530008,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        },
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 1702453632,
+      "ambientLightColorG": 6005776,
+      "ambientLightColorR": 150995056,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "AInetwork1",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "CRT",
+          "name": "Effect",
+          "doubleParameters": {
+            "animationFrequency": 60,
+            "animationSpeed": 1,
+            "curvature": 1,
+            "lineContrast": 0.25,
+            "lineWidth": 1,
+            "noise": 0.3,
+            "noiseSize": 1,
+            "vignetting": 0.3,
+            "vignettingAlpha": 1,
+            "vignettingBlur": 0.3
+          },
+          "stringParameters": {},
+          "booleanParameters": {
+            "verticalLine": false
+          }
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 1702453632,
+      "ambientLightColorG": 1701726592,
+      "ambientLightColorR": 83886080,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "AInetwork2",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "TopDownMovement",
+      "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+    }
+  ]
+}

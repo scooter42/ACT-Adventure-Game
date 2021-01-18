@@ -199,24 +199,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "gfx/back.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "gfx\\back.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "gfx/nodes-1427176_960_720.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "gfx\\nodes-1427176_960_720.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "gfx/1.png",
         "kind": "image",
         "metadata": "",
@@ -352,15 +334,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "gfx/Room.PNG",
-        "kind": "image",
-        "metadata": "",
-        "name": "gfx\\Room.PNG",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "gfx/manfront.PNG",
         "kind": "image",
         "metadata": "",
@@ -457,6 +430,33 @@
         "name": "gfx\\backbutton.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/glow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\glow.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/nodes.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\nodes.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/room.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\room.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -471,7 +471,11 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/ai_brain"
+      "referenceTo": "/layouts/room"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/ai_hover"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -484,7 +488,12 @@
       "referenceTo": "/externalEvents/speak"
     }
   ],
-  "eventsFunctionsExtensions": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/stayonscreen"
+    }
+  ],
   "externalLayouts": [],
   "externalSourceFiles": []
 }
