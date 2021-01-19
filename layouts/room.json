@@ -22,9 +22,30 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.496
+    "zoomFactor": 0.472
   },
-  "objectsGroups": [],
+  "objectsGroups": [
+    {
+      "name": "Blocking",
+      "objects": [
+        {
+          "name": "VRblocking"
+        },
+        {
+          "name": "blocking"
+        },
+        {
+          "name": "tankblocking"
+        },
+        {
+          "name": "puterblocking"
+        },
+        {
+          "name": "dresserblocking"
+        }
+      ]
+    }
+  ],
   "variables": [],
   "instances": [
     {
@@ -36,8 +57,8 @@
       "name": "faces",
       "persistentUuid": "1402fc10-05bb-45ab-a76f-1d7fef7e9e72",
       "width": 192,
-      "x": 864,
-      "y": 256,
+      "x": 960,
+      "y": 352,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -78,22 +99,6 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 32,
-      "layer": "Main1",
-      "locked": false,
-      "name": "blocking",
-      "persistentUuid": "b0c04470-3749-4011-88f9-f8dd10e39e2d",
-      "width": 160,
-      "x": 136,
-      "y": 130,
-      "zOrder": 7,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "height": 96,
       "layer": "Main1",
       "locked": false,
@@ -119,38 +124,6 @@
       "x": 634,
       "y": 128,
       "zOrder": 9,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 192,
-      "layer": "Main1",
-      "locked": false,
-      "name": "blocking",
-      "persistentUuid": "29a8feea-edc9-42e4-ab14-6c6b28ba512d",
-      "width": 192,
-      "x": 463,
-      "y": 367,
-      "zOrder": 11,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 128,
-      "layer": "Main1",
-      "locked": false,
-      "name": "blocking",
-      "persistentUuid": "6987aa7f-db71-4197-946e-cf2c988bf22c",
-      "width": 480,
-      "x": 159,
-      "y": 751,
-      "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -190,22 +163,6 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 320,
-      "layer": "Main1",
-      "locked": false,
-      "name": "blocking",
-      "persistentUuid": "f9d42ee6-922e-462d-825f-a3e9b48e23a4",
-      "width": 128,
-      "x": 40,
-      "y": 448,
-      "zOrder": 15,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "height": 96,
       "layer": "Main1",
       "locked": false,
@@ -215,6 +172,102 @@
       "x": 832,
       "y": 576,
       "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 224,
+      "layer": "Main1",
+      "locked": false,
+      "name": "vr_helmet",
+      "persistentUuid": "b42c559d-8755-4243-b55e-1fd3251b87a0",
+      "width": 256,
+      "x": 960,
+      "y": 352,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 288,
+      "layer": "Main1",
+      "locked": false,
+      "name": "VRblocking",
+      "persistentUuid": "51d1ca3e-dc57-49f5-b825-b5ecf35c51ff",
+      "width": 128,
+      "x": 41,
+      "y": 448,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "Main1",
+      "locked": false,
+      "name": "blocking",
+      "persistentUuid": "5c11713a-f827-43b5-bb51-c25307629939",
+      "width": 64,
+      "x": 171,
+      "y": 735,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "Main1",
+      "locked": false,
+      "name": "tankblocking",
+      "persistentUuid": "bb81d480-22fa-40b0-9f95-ea9686e8c129",
+      "width": 416,
+      "x": 192,
+      "y": 753,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "Main1",
+      "locked": false,
+      "name": "puterblocking",
+      "persistentUuid": "b174b06b-7861-4080-aa43-8923b364e78e",
+      "width": 160,
+      "x": 138,
+      "y": 94,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 160,
+      "layer": "Main1",
+      "locked": false,
+      "name": "dresserblocking",
+      "persistentUuid": "bcff9bf4-ab80-48af-9297-6e40337fc830",
+      "width": 160,
+      "x": 465,
+      "y": 361,
+      "zOrder": 22,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -243,14 +296,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 51.5,
+                    "y": 67.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 52.5,
+                    "y": 66.5
                   },
                   "customCollisionMask": []
                 },
@@ -260,14 +313,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 54.5,
+                    "y": 63.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 54.5,
+                    "y": 63.5
                   },
                   "customCollisionMask": []
                 },
@@ -277,14 +330,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 42,
+                    "y": 72.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 41,
+                    "y": 72.5
                   },
                   "customCollisionMask": []
                 },
@@ -294,14 +347,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 53.5,
+                    "y": 69.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 52.5,
+                    "y": 69.5
                   },
                   "customCollisionMask": []
                 },
@@ -311,31 +364,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 39.5,
+                    "y": 69.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "gfx\\f.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 39.5,
+                    "y": 69.5
                   },
                   "customCollisionMask": []
                 },
@@ -345,14 +381,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 58,
+                    "y": 60.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 58,
+                    "y": 59.5
                   },
                   "customCollisionMask": []
                 }
@@ -745,6 +781,162 @@
       ]
     },
     {
+      "name": "tankblocking",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewObject",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "gfx\\blobking.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "puterblocking",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewObject",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "gfx\\blobking.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "dresserblocking",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewObject",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "gfx\\blobking.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VRblocking",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewObject",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "gfx\\blobking.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "blocking",
       "tags": "",
       "type": "Sprite",
@@ -801,6 +993,50 @@
         "g": 0,
         "r": 0
       }
+    },
+    {
+      "name": "vr_helmet",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "gfx\\vr.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 182,
+                    "y": 183.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 183,
+                    "y": 183.5
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -827,7 +1063,7 @@
             "value": "Opacity"
           },
           "parameters": [
-            "blocking",
+            "Blocking",
             "=",
             "0"
           ],
@@ -852,6 +1088,18 @@
             "faces",
             "=",
             "RandomInRange(1, 7)"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Opacity"
+          },
+          "parameters": [
+            "vr_helmet",
+            "=",
+            "0"
           ],
           "subInstructions": []
         }
@@ -1050,7 +1298,7 @@
           },
           "parameters": [
             "dude",
-            "blocking",
+            "Blocking",
             "",
             "",
             ""
@@ -1066,8 +1314,61 @@
           },
           "parameters": [
             "dude",
-            "blocking",
+            "Blocking",
             ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "dude",
+            "VRblocking",
+            "",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Tween::AddObjectOpacityTween"
+          },
+          "parameters": [
+            "vr_helmet",
+            "Tween",
+            "\"helmeton\"",
+            "255",
+            "\"linear\"",
+            "1000",
+            "no"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "MettreAutour"
+          },
+          "parameters": [
+            "vr_helmet",
+            "faces",
+            "0",
+            "0"
           ],
           "subInstructions": []
         }
@@ -1197,6 +1498,10 @@
     {
       "name": "TopDownMovement",
       "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+    },
+    {
+      "name": "Tween",
+      "type": "Tween::TweenBehavior"
     }
   ]
 }

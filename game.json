@@ -464,6 +464,15 @@
         "metadata": "",
         "name": "sound\\hover.wav",
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/vr.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\vr.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
