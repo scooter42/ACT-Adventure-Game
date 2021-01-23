@@ -42,6 +42,9 @@
         },
         {
           "name": "dresserblocking"
+        },
+        {
+          "name": "doorblocking"
         }
       ]
     }
@@ -52,7 +55,7 @@
       "angle": 0,
       "customSize": true,
       "height": 192,
-      "layer": "Main1",
+      "layer": "VR",
       "locked": false,
       "name": "faces",
       "persistentUuid": "1402fc10-05bb-45ab-a76f-1d7fef7e9e72",
@@ -67,12 +70,12 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 896,
-      "layer": "Main1",
+      "height": 880,
+      "layer": "",
       "locked": false,
       "name": "frame",
       "persistentUuid": "b4b778fb-a319-4438-8ec6-08bd12f6f0cf",
-      "width": 1312,
+      "width": 1320,
       "x": 0,
       "y": 0,
       "zOrder": 5,
@@ -83,8 +86,8 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 192,
-      "layer": "Main1",
+      "height": 160,
+      "layer": "",
       "locked": false,
       "name": "dude",
       "persistentUuid": "3584bd42-7326-4614-9d52-54d9dc6a79ba",
@@ -100,13 +103,13 @@
       "angle": 0,
       "customSize": true,
       "height": 96,
-      "layer": "Main1",
+      "layer": "",
       "locked": false,
       "name": "blocking",
       "persistentUuid": "57fa9e9e-14b9-4c21-b5a1-beadec5237ae",
-      "width": 672,
+      "width": 448,
       "x": 0,
-      "y": 32,
+      "y": 22,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -116,7 +119,7 @@
       "angle": 0,
       "customSize": true,
       "height": 256,
-      "layer": "Main1",
+      "layer": "",
       "locked": false,
       "name": "blocking",
       "persistentUuid": "2a6c4519-c186-4182-aea4-8893cc1ec55b",
@@ -132,7 +135,7 @@
       "angle": 0,
       "customSize": true,
       "height": 512,
-      "layer": "Main1",
+      "layer": "",
       "locked": false,
       "name": "blocking",
       "persistentUuid": "0632f3a6-bfe3-4bb4-9e40-f260fcf15d3d",
@@ -148,7 +151,7 @@
       "angle": 0,
       "customSize": true,
       "height": 192,
-      "layer": "Main1",
+      "layer": "",
       "locked": false,
       "name": "blocking",
       "persistentUuid": "f355ae84-4295-4d71-9cc5-16ce1e2bb8c4",
@@ -163,24 +166,8 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 96,
-      "layer": "Main1",
-      "locked": false,
-      "name": "NewObject",
-      "persistentUuid": "55968fb0-707f-4d24-9666-3ede113694c8",
-      "width": 288,
-      "x": 832,
-      "y": 576,
-      "zOrder": 16,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "height": 224,
-      "layer": "Main1",
+      "layer": "VR",
       "locked": false,
       "name": "vr_helmet",
       "persistentUuid": "b42c559d-8755-4243-b55e-1fd3251b87a0",
@@ -196,7 +183,7 @@
       "angle": 0,
       "customSize": true,
       "height": 288,
-      "layer": "Main1",
+      "layer": "",
       "locked": false,
       "name": "VRblocking",
       "persistentUuid": "51d1ca3e-dc57-49f5-b825-b5ecf35c51ff",
@@ -212,13 +199,13 @@
       "angle": 0,
       "customSize": true,
       "height": 32,
-      "layer": "Main1",
+      "layer": "",
       "locked": false,
       "name": "blocking",
       "persistentUuid": "5c11713a-f827-43b5-bb51-c25307629939",
       "width": 64,
-      "x": 171,
-      "y": 735,
+      "x": 169,
+      "y": 721,
       "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
@@ -228,13 +215,13 @@
       "angle": 0,
       "customSize": true,
       "height": 64,
-      "layer": "Main1",
+      "layer": "",
       "locked": false,
       "name": "tankblocking",
       "persistentUuid": "bb81d480-22fa-40b0-9f95-ea9686e8c129",
       "width": 416,
       "x": 192,
-      "y": 753,
+      "y": 743,
       "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
@@ -244,7 +231,7 @@
       "angle": 0,
       "customSize": true,
       "height": 64,
-      "layer": "Main1",
+      "layer": "",
       "locked": false,
       "name": "puterblocking",
       "persistentUuid": "b174b06b-7861-4080-aa43-8923b364e78e",
@@ -260,14 +247,62 @@
       "angle": 0,
       "customSize": true,
       "height": 160,
-      "layer": "Main1",
+      "layer": "",
       "locked": false,
       "name": "dresserblocking",
       "persistentUuid": "bcff9bf4-ab80-48af-9297-6e40337fc830",
       "width": 160,
       "x": 465,
-      "y": 361,
+      "y": 358,
       "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "locked": false,
+      "name": "Words",
+      "persistentUuid": "e478de83-bc8d-41d5-9047-322477354128",
+      "width": 512,
+      "x": 736,
+      "y": 64,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 96,
+      "layer": "",
+      "locked": false,
+      "name": "doorblocking",
+      "persistentUuid": "a70fa476-acf1-402a-a217-e6cfc428d05d",
+      "width": 160,
+      "x": 464,
+      "y": 23,
+      "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 576,
+      "layer": "Float",
+      "locked": false,
+      "name": "float",
+      "persistentUuid": "e66ad724-06d9-4ded-a966-7baee76981a5",
+      "width": 448,
+      "x": 768,
+      "y": 277,
+      "zOrder": 25,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -464,11 +499,11 @@
           "directions": [
             {
               "looping": true,
-              "timeBetweenFrames": 0.15,
+              "timeBetweenFrames": 0.12,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "gfx\\character\\sprite_07.png",
+                  "image": "gfx\\character\\down2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -485,7 +520,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "gfx\\character\\sprite_06.png",
+                  "image": "gfx\\character\\down3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -502,7 +537,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "gfx\\character\\sprite_07.png",
+                  "image": "gfx\\character\\down2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -519,7 +554,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "gfx\\character\\sprite_08.png",
+                  "image": "gfx\\character\\down1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -544,11 +579,11 @@
           "directions": [
             {
               "looping": true,
-              "timeBetweenFrames": 0.15,
+              "timeBetweenFrames": 0.12,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "gfx\\character\\sprite_01.png",
+                  "image": "gfx\\character\\up2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -565,7 +600,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "gfx\\character\\sprite_00.png",
+                  "image": "gfx\\character\\up3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -582,7 +617,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "gfx\\character\\sprite_01.png",
+                  "image": "gfx\\character\\up2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -599,7 +634,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "gfx\\character\\sprite_02.png",
+                  "image": "gfx\\character\\up1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -624,11 +659,11 @@
           "directions": [
             {
               "looping": true,
-              "timeBetweenFrames": 0.15,
+              "timeBetweenFrames": 0.12,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "gfx\\character\\sprite_10.png",
+                  "image": "gfx\\character\\left2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -645,7 +680,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "gfx\\character\\sprite_09.png",
+                  "image": "gfx\\character\\left3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -662,7 +697,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "gfx\\character\\sprite_10.png",
+                  "image": "gfx\\character\\left2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -679,7 +714,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "gfx\\character\\sprite_11.png",
+                  "image": "gfx\\character\\left1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -704,11 +739,11 @@
           "directions": [
             {
               "looping": true,
-              "timeBetweenFrames": 0.15,
+              "timeBetweenFrames": 0.12,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "gfx\\character\\sprite_04.png",
+                  "image": "gfx\\character\\right2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -725,7 +760,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "gfx\\character\\sprite_03.png",
+                  "image": "gfx\\character\\right3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -742,7 +777,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "gfx\\character\\sprite_04.png",
+                  "image": "gfx\\character\\right2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -759,7 +794,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "gfx\\character\\sprite_05.png",
+                  "image": "gfx\\character\\right1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -898,6 +933,45 @@
       ]
     },
     {
+      "name": "doorblocking",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewObject",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "gfx\\blobking.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "VRblocking",
       "tags": "",
       "type": "Sprite",
@@ -978,14 +1052,45 @@
     {
       "bold": false,
       "italic": false,
-      "name": "NewObject",
+      "name": "Words",
       "smoothed": true,
       "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
-      "variables": [],
-      "behaviors": [],
-      "string": "For testing enter \"2\" to go to VR hover scene and \"1\" to return here",
+      "variables": [
+        {
+          "name": "0",
+          "value": "You find yourself in n unusual room..."
+        },
+        {
+          "name": "1",
+          "value": "A VR interface. For testing enter 2. To return enter 1."
+        },
+        {
+          "name": "2",
+          "value": "Sensory deprivation tank"
+        },
+        {
+          "name": "3",
+          "value": "A chest of drawers and mirror."
+        },
+        {
+          "name": "4",
+          "value": "A door with a keypad"
+        },
+        {
+          "name": "5",
+          "value": "A computer terminal."
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "Text_AutoTyping",
+          "type": "AutoTyping::Text_AutoTyping",
+          "Interval": 0.02
+        }
+      ],
+      "string": "You find yourself in an unusual room...",
       "font": "",
       "characterSize": 20,
       "color": {
@@ -1029,6 +1134,45 @@
                     "name": "centre",
                     "x": 183,
                     "y": 183.5
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "float",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "gfx\\float.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
                   },
                   "customCollisionMask": []
                 }
@@ -1346,6 +1490,28 @@
         {
           "type": {
             "inverted": false,
+            "value": "ShowLayer"
+          },
+          "parameters": [
+            "",
+            "\"VR\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"Float\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
             "value": "Tween::AddObjectOpacityTween"
           },
           "parameters": [
@@ -1369,6 +1535,250 @@
             "faces",
             "0",
             "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "Words",
+            "=",
+            "\"A VR interface. For testing enter 2. To return enter 1.\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "dude",
+            "tankblocking",
+            "",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "Words",
+            "=",
+            "\"A sensory deprivation tank.\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ShowLayer"
+          },
+          "parameters": [
+            "",
+            "\"Float\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"VR\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "dude",
+            "puterblocking",
+            "",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "Words",
+            "=",
+            "\"A computer terminal.\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"Float\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"VR\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "dude",
+            "dresserblocking",
+            "",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "Words",
+            "=",
+            "\"A chest of drawers and mirror.\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"Float\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"VR\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "dude",
+            "doorblocking",
+            "",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "Words",
+            "=",
+            "\"A door with a keypad.\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"Float\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"VR\""
           ],
           "subInstructions": []
         }
@@ -1477,10 +1887,31 @@
       "ambientLightColorR": 83886080,
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "name": "Main1",
-      "visibility": true,
+      "name": "VR",
+      "visibility": false,
       "cameras": [],
-      "effects": []
+      "effects": [
+        {
+          "effectType": "CRT",
+          "name": "Effect",
+          "doubleParameters": {
+            "animationFrequency": 60,
+            "animationSpeed": 1,
+            "curvature": 1,
+            "lineContrast": 0.25,
+            "lineWidth": 1,
+            "noise": 0.3,
+            "noiseSize": 1,
+            "vignetting": 0.3,
+            "vignettingAlpha": 1,
+            "vignettingBlur": 0.3
+          },
+          "stringParameters": {},
+          "booleanParameters": {
+            "verticalLine": false
+          }
+        }
+      ]
     },
     {
       "ambientLightColorB": 1702453632,
@@ -1488,13 +1919,36 @@
       "ambientLightColorR": 83886080,
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "name": "Main2",
-      "visibility": true,
+      "name": "Float",
+      "visibility": false,
       "cameras": [],
-      "effects": []
+      "effects": [
+        {
+          "effectType": "Reflection",
+          "name": "Effect",
+          "doubleParameters": {
+            "alphaEnding": 1,
+            "alphaStart": 1,
+            "amplitudeEnding": 5,
+            "amplitudeStart": 0,
+            "animationSpeed": 5,
+            "boundary": 0,
+            "waveLengthEnding": 10,
+            "waveLengthStart": 12
+          },
+          "stringParameters": {},
+          "booleanParameters": {
+            "mirror": false
+          }
+        }
+      ]
     }
   ],
   "behaviorsSharedData": [
+    {
+      "name": "Text_AutoTyping",
+      "type": "AutoTyping::Text_AutoTyping"
+    },
     {
       "name": "TopDownMovement",
       "type": "TopDownMovementBehavior::TopDownMovementBehavior"

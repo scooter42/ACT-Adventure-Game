@@ -244,15 +244,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "gfx/f.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "gfx\\f.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "gfx/g.png",
         "kind": "image",
         "metadata": "",
@@ -351,114 +342,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
-        "file": "gfx/character/sprite_06.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "gfx\\character\\sprite_06.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "gfx/character/sprite_07.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "gfx\\character\\sprite_07.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "gfx/character/sprite_08.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "gfx\\character\\sprite_08.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "gfx/character/sprite_00.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "gfx\\character\\sprite_00.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "gfx/character/sprite_01.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "gfx\\character\\sprite_01.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "gfx/character/sprite_02.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "gfx\\character\\sprite_02.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "gfx/character/sprite_09.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "gfx\\character\\sprite_09.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "gfx/character/sprite_10.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "gfx\\character\\sprite_10.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "gfx/character/sprite_11.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "gfx\\character\\sprite_11.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "gfx/character/sprite_03.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "gfx\\character\\sprite_03.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "gfx/character/sprite_04.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "gfx\\character\\sprite_04.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "gfx/character/sprite_05.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "gfx\\character\\sprite_05.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "sound/hover.wav",
         "kind": "audio",
         "metadata": "",
@@ -471,6 +354,123 @@
         "kind": "image",
         "metadata": "",
         "name": "gfx\\vr.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/character/down1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\character\\down1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/character/down2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\character\\down2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/character/down3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\character\\down3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/character/up1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\character\\up1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/character/up2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\character\\up2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/character/up3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\character\\up3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/character/left1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\character\\left1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/character/left2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\character\\left2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/character/left3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\character\\left3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/character/right1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\character\\right1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/character/right2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\character\\right2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/character/right3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\character\\right3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/float.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\float.png",
         "smoothed": false,
         "userAdded": true
       }
@@ -505,6 +505,10 @@
     }
   ],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/autotyping"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/stayonscreen"
