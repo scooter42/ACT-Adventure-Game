@@ -93,7 +93,7 @@
       "persistentUuid": "3584bd42-7326-4614-9d52-54d9dc6a79ba",
       "width": 64,
       "x": 288,
-      "y": 320,
+      "y": 480,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -109,7 +109,7 @@
       "persistentUuid": "57fa9e9e-14b9-4c21-b5a1-beadec5237ae",
       "width": 448,
       "x": 0,
-      "y": 22,
+      "y": 224,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -134,14 +134,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 512,
+      "height": 192,
       "layer": "",
       "locked": false,
       "name": "blocking",
       "persistentUuid": "0632f3a6-bfe3-4bb4-9e40-f260fcf15d3d",
       "width": 32,
       "x": 0,
-      "y": 128,
+      "y": 352,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -156,8 +156,8 @@
       "name": "blocking",
       "persistentUuid": "f355ae84-4295-4d71-9cc5-16ce1e2bb8c4",
       "width": 32,
-      "x": 632,
-      "y": 558,
+      "x": 640,
+      "y": 672,
       "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
@@ -182,31 +182,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 288,
+      "height": 192,
       "layer": "",
       "locked": false,
       "name": "VRblocking",
       "persistentUuid": "51d1ca3e-dc57-49f5-b825-b5ecf35c51ff",
-      "width": 128,
-      "x": 41,
-      "y": 448,
+      "width": 96,
+      "x": 49,
+      "y": 544,
       "zOrder": 18,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "",
-      "locked": false,
-      "name": "blocking",
-      "persistentUuid": "5c11713a-f827-43b5-bb51-c25307629939",
-      "width": 64,
-      "x": 169,
-      "y": 721,
-      "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -219,9 +203,9 @@
       "locked": false,
       "name": "tankblocking",
       "persistentUuid": "bb81d480-22fa-40b0-9f95-ea9686e8c129",
-      "width": 416,
-      "x": 192,
-      "y": 743,
+      "width": 320,
+      "x": 162,
+      "y": 761,
       "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
@@ -236,8 +220,8 @@
       "name": "puterblocking",
       "persistentUuid": "b174b06b-7861-4080-aa43-8923b364e78e",
       "width": 160,
-      "x": 138,
-      "y": 94,
+      "x": 140,
+      "y": 288,
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
@@ -246,31 +230,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 160,
+      "height": 128,
       "layer": "",
       "locked": false,
       "name": "dresserblocking",
       "persistentUuid": "bcff9bf4-ab80-48af-9297-6e40337fc830",
-      "width": 160,
-      "x": 465,
-      "y": 358,
+      "width": 128,
+      "x": 502,
+      "y": 508,
       "zOrder": 22,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 64,
-      "layer": "",
-      "locked": false,
-      "name": "Words",
-      "persistentUuid": "e478de83-bc8d-41d5-9047-322477354128",
-      "width": 512,
-      "x": 736,
-      "y": 64,
-      "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -284,8 +252,8 @@
       "name": "doorblocking",
       "persistentUuid": "a70fa476-acf1-402a-a217-e6cfc428d05d",
       "width": 160,
-      "x": 464,
-      "y": 23,
+      "x": 467,
+      "y": 224,
       "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
@@ -303,6 +271,22 @@
       "x": 768,
       "y": 277,
       "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 160,
+      "layer": "",
+      "locked": false,
+      "name": "Words",
+      "persistentUuid": "43034d40-e1be-43df-8d91-74b75bda51a6",
+      "width": 576,
+      "x": 46,
+      "y": 23,
+      "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -480,10 +464,10 @@
       "variables": [],
       "behaviors": [
         {
+          "allowDiagonals": false,
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "acceleration": 400,
-          "allowDiagonals": true,
           "angleOffset": 0,
           "angularMaxSpeed": 180,
           "deceleration": 800,
@@ -1050,56 +1034,6 @@
       ]
     },
     {
-      "bold": false,
-      "italic": false,
-      "name": "Words",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [
-        {
-          "name": "0",
-          "value": "You find yourself in n unusual room..."
-        },
-        {
-          "name": "1",
-          "value": "A VR interface. For testing enter 2. To return enter 1."
-        },
-        {
-          "name": "2",
-          "value": "Sensory deprivation tank"
-        },
-        {
-          "name": "3",
-          "value": "A chest of drawers and mirror."
-        },
-        {
-          "name": "4",
-          "value": "A door with a keypad"
-        },
-        {
-          "name": "5",
-          "value": "A computer terminal."
-        }
-      ],
-      "behaviors": [
-        {
-          "name": "Text_AutoTyping",
-          "type": "AutoTyping::Text_AutoTyping",
-          "Interval": 0.02
-        }
-      ],
-      "string": "You find yourself in an unusual room...",
-      "font": "",
-      "characterSize": 20,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      }
-    },
-    {
       "name": "vr_helmet",
       "tags": "",
       "type": "Sprite",
@@ -1181,6 +1115,31 @@
           ]
         }
       ]
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "Words",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [
+        {
+          "name": "Text_AutoTyping",
+          "type": "AutoTyping::Text_AutoTyping",
+          "Interval": 0.01
+        }
+      ],
+      "string": "You find yourself in an unusual room...",
+      "font": "",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
     }
   ],
   "events": [
@@ -1546,7 +1505,7 @@
           "parameters": [
             "Words",
             "=",
-            "\"A VR interface. For testing enter 2. To return enter 1.\""
+            "\"a VR interface. Press 2 to activate and 1 to return.\""
           ],
           "subInstructions": []
         }
@@ -1577,18 +1536,6 @@
         {
           "type": {
             "inverted": false,
-            "value": "TextObject::String"
-          },
-          "parameters": [
-            "Words",
-            "=",
-            "\"A sensory deprivation tank.\""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
             "value": "ShowLayer"
           },
           "parameters": [
@@ -1605,6 +1552,18 @@
           "parameters": [
             "",
             "\"VR\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "Words",
+            "=",
+            "\"a sensory deprivation float tank.\""
           ],
           "subInstructions": []
         }
@@ -1635,18 +1594,6 @@
         {
           "type": {
             "inverted": false,
-            "value": "TextObject::String"
-          },
-          "parameters": [
-            "Words",
-            "=",
-            "\"A computer terminal.\""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
             "value": "HideLayer"
           },
           "parameters": [
@@ -1663,6 +1610,18 @@
           "parameters": [
             "",
             "\"VR\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "Words",
+            "=",
+            "\"a computer terminal.\""
           ],
           "subInstructions": []
         }
@@ -1693,18 +1652,6 @@
         {
           "type": {
             "inverted": false,
-            "value": "TextObject::String"
-          },
-          "parameters": [
-            "Words",
-            "=",
-            "\"A chest of drawers and mirror.\""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
             "value": "HideLayer"
           },
           "parameters": [
@@ -1721,6 +1668,18 @@
           "parameters": [
             "",
             "\"VR\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "Words",
+            "=",
+            "\"a chest of drawers with a mirror.\""
           ],
           "subInstructions": []
         }
@@ -1751,18 +1710,6 @@
         {
           "type": {
             "inverted": false,
-            "value": "TextObject::String"
-          },
-          "parameters": [
-            "Words",
-            "=",
-            "\"A door with a keypad.\""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
             "value": "HideLayer"
           },
           "parameters": [
@@ -1779,6 +1726,18 @@
           "parameters": [
             "",
             "\"VR\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "Words",
+            "=",
+            "\"a locked door with a keypad\""
           ],
           "subInstructions": []
         }
