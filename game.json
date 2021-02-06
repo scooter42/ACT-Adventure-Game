@@ -473,11 +473,92 @@
         "name": "gfx\\float.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "file": "sound/Dies Irae Vocoder.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\Dies Irae Vocoder.mp3",
+        "userAdded": true
+      },
+      {
+        "file": "sound/Panic Breathing.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\Panic Breathing.mp3",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/black.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\black.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/whitesiloette-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\whitesiloette-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/tracker.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\tracker.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
   },
-  "objects": [],
+  "objects": [
+    {
+      "name": "float",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "gfx\\float.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "objectsGroups": [],
   "variables": [],
   "layouts": [
@@ -505,6 +586,10 @@
     }
   ],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/timedbackandforthmovement"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/autotyping"
