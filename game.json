@@ -9,7 +9,7 @@
   "properties": {
     "adaptGameResolutionAtRuntime": false,
     "folderProject": true,
-    "orientation": "default",
+    "orientation": "landscape",
     "packageName": "com.example.gamename",
     "projectUuid": "7597f815-864f-4fcd-b43d-4995fae3ad51",
     "scaleMode": "nearest",
@@ -23,7 +23,7 @@
     "windowHeight": 880,
     "latestCompilationDirectory": "",
     "maxFPS": 60,
-    "minFPS": 10,
+    "minFPS": 20,
     "verticalSync": false,
     "platformSpecificAssets": {},
     "loadingScreen": {
