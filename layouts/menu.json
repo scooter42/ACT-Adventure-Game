@@ -181,23 +181,6 @@
       ]
     },
     {
-      "name": "Decoder",
-      "tags": "",
-      "type": "BBText::BBText",
-      "variables": [],
-      "behaviors": [],
-      "content": {
-        "text": "[outline=yellow]Decoder[/outline]",
-        "opacity": 255,
-        "fontSize": 42,
-        "visible": true,
-        "color": "#000000",
-        "fontFamily": "Arial",
-        "align": "center",
-        "wordWrap": true
-      }
-    },
-    {
       "name": "ACTAdventure2",
       "tags": "",
       "type": "BBText::BBText",
@@ -701,6 +684,39 @@
             "\"Effect\"",
             "\"size\"",
             "pathpix.Y() * 0.01125 +1"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "c"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Decoder\"",
+            ""
           ],
           "subInstructions": []
         }
