@@ -22,7 +22,7 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.256
+    "zoomFactor": 0.232
   },
   "objectsGroups": [],
   "variables": [],
@@ -138,6 +138,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 140,
+      "layer": "GUI",
+      "locked": false,
+      "name": "Cheats",
+      "persistentUuid": "2b286196-b142-4a86-abb4-4c063293efee",
+      "width": 152,
+      "x": 1192,
+      "y": 744,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -215,89 +231,6 @@
       }
     },
     {
-      "name": "whiteman",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [
-        {
-          "name": "nNext",
-          "value": "0"
-        }
-      ],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "whitesiloette",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "gfx\\whitesiloette-1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "black",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "NewObject",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "gfx\\black.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "pathpix",
       "tags": "",
       "type": "Sprite",
@@ -354,19 +287,7 @@
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
-      "behaviors": [
-        {
-          "name": "TimedBackAndForthMirroredMovement",
-          "type": "TimedBackAndForthMovement::TimedBackAndForthMirroredMovement",
-          "Vertical": false,
-          "Speed": 300,
-          "Distance": 1200,
-          "Timeout": 4,
-          "StartPosition": 0,
-          "LastPosition": 0,
-          "stuck": false
-        }
-      ],
+      "behaviors": [],
       "animations": [
         {
           "name": "NewObject",
@@ -398,6 +319,25 @@
           ]
         }
       ]
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "Cheats",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Cheat Keys \nc=codex\nh=hover\nr=room\nm=menu",
+      "font": "",
+      "characterSize": 20,
+      "color": {
+        "b": 28,
+        "g": 231,
+        "r": 248
+      }
     }
   ],
   "events": [
@@ -510,77 +450,17 @@
             "1"
           ],
           "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "VarObjet"
-          },
-          "parameters": [
-            "whiteman",
-            "nNext",
-            "=",
-            "1"
-          ],
-          "subInstructions": []
         },
         {
           "type": {
             "inverted": false,
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": [],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "PlaySoundCanal"
-          },
-          "parameters": [
-            "",
-            "sound\\Panic Breathing.mp3",
-            "1",
-            "yes",
-            "50",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "PlaySoundCanal"
-          },
-          "parameters": [
-            "",
-            "sound\\Dies Irae Vocoder.mp3",
-            "5",
-            "yes",
-            "50",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "ActivateBehavior"
+            "value": "AddForceXY"
           },
           "parameters": [
             "pathswirl",
-            "TimedBackAndForthMirroredMovement",
-            "yes"
+            "200",
+            "0",
+            "1"
           ],
           "subInstructions": []
         }
@@ -595,22 +475,13 @@
         {
           "type": {
             "inverted": false,
-            "value": "VarObjet"
+            "value": "PosX"
           },
           "parameters": [
-            "whiteman",
-            "nNext",
-            "=",
-            "2"
+            "pathswirl",
+            ">",
+            "ScreenWidth()"
           ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": [],
           "subInstructions": []
         }
       ],
@@ -622,7 +493,7 @@
           },
           "parameters": [
             "",
-            "\"Room\"",
+            "\"EmptyWhiteRoom\"",
             ""
           ],
           "subInstructions": []
@@ -715,7 +586,106 @@
           },
           "parameters": [
             "",
-            "\"Decoder\"",
+            "\"Codex\"",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "h"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"AI_hover\"",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "r"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Room\"",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "m"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Menu\"",
             ""
           ],
           "subInstructions": []

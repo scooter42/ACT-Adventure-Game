@@ -1,18 +1,18 @@
 {
-  "b": 0,
+  "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "AI_95hover",
-  "name": "AI_hover",
+  "mangledName": "EmptyWhiteRoom",
+  "name": "EmptyWhiteRoom",
   "oglFOV": 90,
   "oglZFar": 500,
   "oglZNear": 1,
-  "r": 0,
+  "r": 255,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 0,
+  "v": 255,
   "uiSettings": {
-    "grid": true,
+    "grid": false,
     "gridB": 255,
     "gridG": 180,
     "gridHeight": 32,
@@ -22,7 +22,7 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.184
+    "zoomFactor": 0.4
   },
   "objectsGroups": [],
   "variables": [],
@@ -31,61 +31,13 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AInetwork1",
+      "layer": "",
       "locked": false,
-      "name": "hovership",
-      "persistentUuid": "1df2d669-f52c-4885-af09-9befa008d8af",
+      "name": "ears",
+      "persistentUuid": "d3a31ef3-bad8-4283-b2cc-14de6960cf9e",
       "width": 0,
-      "x": 640,
-      "y": 416,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "AInetwork1",
-      "locked": false,
-      "name": "nodeblobs",
-      "persistentUuid": "5d587f32-2d48-40cb-a708-bc82594dada4",
-      "width": 0,
-      "x": 2000,
-      "y": 2000,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "AInetwork1",
-      "locked": false,
-      "name": "rocletpulse",
-      "persistentUuid": "1ee283e7-8aea-475c-9eeb-d070f7f0ed20",
-      "width": 0,
-      "x": 608,
-      "y": 416,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 4000,
-      "layer": "AInetwork1",
-      "locked": true,
-      "name": "nodes",
-      "persistentUuid": "cfbdc373-85dd-4f22-81df-d2b68cabf54b",
-      "width": 4000,
-      "x": 0,
-      "y": 0,
+      "x": 1154,
+      "y": 47,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -95,14 +47,14 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AInetwork1",
+      "layer": "",
       "locked": false,
-      "name": "nodeblobs",
-      "persistentUuid": "5b701432-67ed-46c6-87af-0b8ddf3d6bed",
+      "name": "ears",
+      "persistentUuid": "68308892-b2bf-4b56-8856-60b29031b261",
       "width": 0,
-      "x": 1952,
-      "y": 1088,
-      "zOrder": 3,
+      "x": 82,
+      "y": 54,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -111,13 +63,13 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AInetwork1",
+      "layer": "",
       "locked": false,
-      "name": "nodeblobs",
-      "persistentUuid": "47c142cb-3912-40c7-b9e2-c190f0f6136b",
+      "name": "eyes",
+      "persistentUuid": "7f0f0502-e1c0-444f-b5d2-8d0a2c01db93",
       "width": 0,
-      "x": 640,
-      "y": 2112,
+      "x": 36,
+      "y": 663,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -125,32 +77,48 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "AInetwork1",
+      "customSize": true,
+      "height": 880,
+      "layer": "escher",
       "locked": false,
-      "name": "nodeblobs",
-      "persistentUuid": "9db5f7dd-b98e-4fa6-b265-8b6e910da0e1",
-      "width": 0,
-      "x": 2016,
-      "y": 3072,
-      "zOrder": 3,
+      "name": "escher",
+      "persistentUuid": "9fe426c0-61da-4ff7-830b-6a4ccf309f81",
+      "width": 1321,
+      "x": 1,
+      "y": 1,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "AInetwork1",
+      "customSize": true,
+      "height": 406,
+      "layer": "escher",
       "locked": false,
-      "name": "nodeblobs",
-      "persistentUuid": "2f7d1aa5-8839-4986-97bc-a4870618b5ee",
-      "width": 0,
-      "x": 3104,
-      "y": 1888,
-      "zOrder": 3,
+      "name": "faces",
+      "persistentUuid": "4da53e80-ef1d-45d1-8554-1556f8af06ab",
+      "width": 387,
+      "x": 1553,
+      "y": 1616,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 324,
+      "layer": "top",
+      "locked": false,
+      "name": "dude",
+      "persistentUuid": "2b3c0911-fb08-4279-aebe-09013d368ce9",
+      "width": 134,
+      "x": 631,
+      "y": 399,
+      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -158,78 +126,7 @@
   ],
   "objects": [
     {
-      "name": "hovership",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "behaviors": [
-        {
-          "name": "TopDownMovement",
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
-          "acceleration": 200,
-          "deceleration": 200,
-          "maxSpeed": 300,
-          "allowDiagonals": true,
-          "angleOffset": 0,
-          "angularMaxSpeed": 180,
-          "ignoreDefaultControls": false,
-          "rotateObject": true
-        }
-      ],
-      "animations": [
-        {
-          "name": "Galactica_Ranger_Extreme",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "gfx\\Galactica_Ranger_Extreme-1-0.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 49,
-                    "y": 67.5
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 50,
-                    "y": 67.5
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 141,
-                        "y": 54
-                      },
-                      {
-                        "x": 159,
-                        "y": 94
-                      },
-                      {
-                        "x": 132,
-                        "y": 109
-                      },
-                      {
-                        "x": 81,
-                        "y": 161
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "blocking",
+      "name": "ears",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -237,7 +134,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "NewObject",
+          "name": "",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -246,7 +143,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "gfx\\blobking.png",
+                  "image": "gfx\\LeftEar.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -268,121 +165,7 @@
       ]
     },
     {
-      "additive": true,
-      "alphaParam": "Mutable",
-      "angleParam": "Mutable",
-      "blueParam": "Random",
-      "destroyWhenNoParticles": true,
-      "emissionEditionSimpleMode": true,
-      "emitterAngleA": 0,
-      "emitterAngleB": 360,
-      "emitterForceMax": 0,
-      "emitterForceMin": 0,
-      "emitterXDirection": 0,
-      "emitterYDirection": 1,
-      "emitterZDirection": 0,
-      "flow": 5,
-      "friction": 0,
-      "gravityEditionSimpleMode": true,
-      "greenParam": "Random",
-      "maxParticleNb": 20,
-      "name": "nodeblobs",
-      "particleAlpha1": 128,
-      "particleAlpha2": 200,
-      "particleAlphaRandomness1": 0,
-      "particleAlphaRandomness2": 0,
-      "particleAngle1": 5,
-      "particleAngle2": 20,
-      "particleAngleRandomness1": 0,
-      "particleAngleRandomness2": 0,
-      "particleBlue1": 255,
-      "particleBlue2": 34,
-      "particleEditionSimpleMode": true,
-      "particleGravityX": 0,
-      "particleGravityY": 0,
-      "particleGravityZ": 0,
-      "particleGreen1": 255,
-      "particleGreen2": 255,
-      "particleLifeTimeMax": 20,
-      "particleLifeTimeMin": 10,
-      "particleRed1": 255,
-      "particleRed2": 0,
-      "particleSize1": 100,
-      "particleSize2": 600,
-      "particleSizeRandomness1": 0,
-      "particleSizeRandomness2": 0,
-      "redParam": "Enabled",
-      "rendererParam1": 256,
-      "rendererParam2": 256,
-      "rendererType": "Quad",
-      "sizeParam": "Mutable",
-      "tags": "",
-      "tank": -1,
-      "textureParticleName": "gfx\\glow.png",
-      "type": "ParticleSystem::ParticleEmitter",
-      "zoneRadius": 1000,
-      "variables": [],
-      "behaviors": []
-    },
-    {
-      "additive": false,
-      "alphaParam": "Mutable",
-      "angleParam": "Mutable",
-      "blueParam": "Random",
-      "destroyWhenNoParticles": false,
-      "emissionEditionSimpleMode": true,
-      "emitterAngleA": 0,
-      "emitterAngleB": 0,
-      "emitterForceMax": 0,
-      "emitterForceMin": 0,
-      "emitterXDirection": 0,
-      "emitterYDirection": 1,
-      "emitterZDirection": 0,
-      "flow": 45,
-      "friction": 0,
-      "gravityEditionSimpleMode": true,
-      "greenParam": "Random",
-      "maxParticleNb": 20,
-      "name": "rocletpulse",
-      "particleAlpha1": 204,
-      "particleAlpha2": 0,
-      "particleAlphaRandomness1": 0,
-      "particleAlphaRandomness2": 0,
-      "particleAngle1": 0,
-      "particleAngle2": 0,
-      "particleAngleRandomness1": 0,
-      "particleAngleRandomness2": 0,
-      "particleBlue1": 254,
-      "particleBlue2": 255,
-      "particleEditionSimpleMode": true,
-      "particleGravityX": 0,
-      "particleGravityY": 0,
-      "particleGravityZ": 0,
-      "particleGreen1": 19,
-      "particleGreen2": 255,
-      "particleLifeTimeMax": 2.5,
-      "particleLifeTimeMin": 0.5,
-      "particleRed1": 144,
-      "particleRed2": 255,
-      "particleSize1": 100,
-      "particleSize2": 300,
-      "particleSizeRandomness1": 0,
-      "particleSizeRandomness2": 0,
-      "redParam": "Enabled",
-      "rendererParam1": 6,
-      "rendererParam2": 1,
-      "rendererType": "Point",
-      "sizeParam": "Mutable",
-      "tags": "",
-      "tank": -1,
-      "textureParticleName": "",
-      "type": "ParticleSystem::ParticleEmitter",
-      "zoneRadius": 0,
-      "variables": [],
-      "behaviors": []
-    },
-    {
-      "name": "nodes",
+      "name": "eyes",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -399,7 +182,46 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "gfx\\nodes.png",
+                  "image": "gfx\\RightEye.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "escher",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "gfx\\escher.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -442,25 +264,15 @@
         {
           "type": {
             "inverted": false,
-            "value": "Opacity"
+            "value": "PlaySoundCanal"
           },
           "parameters": [
-            "blocking",
-            "=",
-            "0"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "MettreAutour"
-          },
-          "parameters": [
-            "rocletpulse",
-            "hovership",
-            "5",
-            "180"
+            "",
+            "sound\\Panic Breathing.mp3",
+            "1",
+            "yes",
+            "50",
+            ""
           ],
           "subInstructions": []
         },
@@ -471,10 +283,10 @@
           },
           "parameters": [
             "",
-            "sound\\hover.wav",
+            "sound\\Dies Irae Vocoder.mp3",
             "5",
             "yes",
-            "25",
+            "50",
             ""
           ],
           "subInstructions": []
@@ -491,53 +303,44 @@
         {
           "type": {
             "inverted": false,
-            "value": "CentreCamera"
+            "value": "SetLayerEffectParameter"
           },
           "parameters": [
             "",
-            "hovership",
-            "yes",
-            "\"AInetwork1\"",
+            "",
+            "\"Effect\"",
+            "\"blur\"",
+            "RandomInRange(16, 32)"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "AnyKeyPressed"
+          },
+          "parameters": [
             ""
           ],
           "subInstructions": []
-        },
+        }
+      ],
+      "actions": [
         {
           "type": {
             "inverted": false,
-            "value": "MettreAutour"
+            "value": "PauseAnimation"
           },
           "parameters": [
-            "rocletpulse",
-            "hovership",
-            "5",
-            "180"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModPitchSoundChannel"
-          },
-          "parameters": [
-            "",
-            "5",
-            "=",
-            "hovership.TopDownMovement::Speed()/400"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVolumeSoundCanal"
-          },
-          "parameters": [
-            "",
-            "5",
-            "=",
-            "hovership.TopDownMovement::Speed()/600"
+            "dude"
           ],
           "subInstructions": []
         }
@@ -552,11 +355,11 @@
         {
           "type": {
             "inverted": false,
-            "value": "KeyReleased"
+            "value": "KeyPressed"
           },
           "parameters": [
             "",
-            "Num1"
+            "Left"
           ],
           "subInstructions": []
         }
@@ -565,9 +368,183 @@
         {
           "type": {
             "inverted": false,
-            "value": "PopScene"
+            "value": "PlayAnimation"
           },
           "parameters": [
+            "dude"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ChangeAnimation"
+          },
+          "parameters": [
+            "dude",
+            "=",
+            "2"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "Right"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "PlayAnimation"
+          },
+          "parameters": [
+            "dude"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ChangeAnimation"
+          },
+          "parameters": [
+            "dude",
+            "=",
+            "3"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "Up"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "PlayAnimation"
+          },
+          "parameters": [
+            "dude"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ChangeAnimation"
+          },
+          "parameters": [
+            "dude",
+            "=",
+            "1"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "Down"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "PlayAnimation"
+          },
+          "parameters": [
+            "dude"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ChangeAnimation"
+          },
+          "parameters": [
+            "dude",
+            "=",
+            "0"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "c"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Codex\"",
             ""
           ],
           "subInstructions": []
@@ -678,47 +655,6 @@
       "disabled": false,
       "folded": false,
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "KeyPressed"
-          },
-          "parameters": [
-            "",
-            "c"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "Scene"
-          },
-          "parameters": [
-            "",
-            "\"Codex\"",
-            ""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": [],
       "events": []
@@ -726,9 +662,20 @@
   ],
   "layers": [
     {
+      "ambientLightColorB": 1702453632,
+      "ambientLightColorG": 6009760,
+      "ambientLightColorR": 100663296,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "escher",
+      "visibility": false,
+      "cameras": [],
+      "effects": []
+    },
+    {
       "ambientLightColorB": 0,
       "ambientLightColorG": 0,
-      "ambientLightColorR": 11530008,
+      "ambientLightColorR": 0,
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "",
@@ -755,56 +702,32 @@
           "width": 0
         }
       ],
-      "effects": []
-    },
-    {
-      "ambientLightColorB": 1702453632,
-      "ambientLightColorG": 6005776,
-      "ambientLightColorR": 150995056,
-      "followBaseLayerCamera": false,
-      "isLightingLayer": false,
-      "name": "AInetwork1",
-      "visibility": true,
-      "cameras": [],
       "effects": [
         {
-          "effectType": "CRT",
+          "effectType": "Blur",
           "name": "Effect",
           "doubleParameters": {
-            "animationFrequency": 60,
-            "animationSpeed": 1,
-            "curvature": 1,
-            "lineContrast": 0.25,
-            "lineWidth": 1,
-            "noise": 0.3,
-            "noiseSize": 1,
-            "vignetting": 0.3,
-            "vignettingAlpha": 1,
-            "vignettingBlur": 0.3
+            "blur": 16,
+            "kernelSize": 11,
+            "quality": 1,
+            "resolution": 2
           },
           "stringParameters": {},
-          "booleanParameters": {
-            "verticalLine": false
-          }
+          "booleanParameters": {}
         }
       ]
     },
     {
-      "ambientLightColorB": 1702453632,
-      "ambientLightColorG": 1701726592,
-      "ambientLightColorR": 83886080,
+      "ambientLightColorB": 1702453580,
+      "ambientLightColorG": 8940824,
+      "ambientLightColorR": 1,
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "name": "AInetwork2",
+      "name": "top",
       "visibility": true,
       "cameras": [],
       "effects": []
     }
   ],
-  "behaviorsSharedData": [
-    {
-      "name": "TopDownMovement",
-      "type": "TopDownMovementBehavior::TopDownMovementBehavior"
-    }
-  ]
+  "behaviorsSharedData": []
 }

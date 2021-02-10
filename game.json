@@ -199,60 +199,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "gfx/2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "gfx\\2.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "gfx/4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "gfx\\4.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "gfx/5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "gfx\\5.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "gfx/8.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "gfx\\8.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "gfx/e.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "gfx\\e.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "gfx/g.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "gfx\\g.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "gfx/heroic_logo.PNG",
         "kind": "image",
         "metadata": "",
@@ -466,15 +412,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
-        "file": "gfx/float.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "gfx\\float.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
         "file": "sound/Dies Irae Vocoder.mp3",
         "kind": "audio",
         "metadata": "",
@@ -514,13 +451,132 @@
         "name": "gfx\\tracker.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/Player-Nearly-Healthy.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\Player-Nearly-Healthy.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/LeftEar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\LeftEar.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/RightEye.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\RightEye.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/escher.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\escher.jpg",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
   },
   "objects": [
     {
-      "name": "float",
+      "name": "whiteman",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "nNext",
+          "value": "0"
+        }
+      ],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "whitesiloette",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "gfx\\whitesiloette-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "black",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewObject",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "gfx\\black.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "faces",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -533,16 +589,359 @@
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 1,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "gfx\\float.png",
+                  "image": "gfx\\Player-Nearly-Healthy.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
+                    "x": 589,
+                    "y": 557
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 595,
+                    "y": 555
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "dude",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [
+        {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+          "allowDiagonals": false,
+          "acceleration": 400,
+          "angleOffset": 0,
+          "angularMaxSpeed": 180,
+          "deceleration": 800,
+          "ignoreDefaultControls": false,
+          "maxSpeed": 200,
+          "rotateObject": false
+        }
+      ],
+      "animations": [
+        {
+          "name": "forward",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.12,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "gfx\\character\\down2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 22.2879,
+                    "y": 58.9286
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
                     "x": 0,
                     "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "gfx\\character\\down3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 21.2946,
+                    "y": 61.7857
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "gfx\\character\\down2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 21.5737,
+                    "y": 59.6429
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "gfx\\character\\down1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 22.0089,
+                    "y": 61.7857
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 22.0089,
+                    "y": 61.7857
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "backward",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.12,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "gfx\\character\\up2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 20.8941,
+                    "y": 62.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 22.0052,
+                    "y": 61.9444
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "gfx\\character\\up3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 20.8941,
+                    "y": 62.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 22.0052,
+                    "y": 61.9444
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "gfx\\character\\up2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 20.8941,
+                    "y": 62.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 22.0052,
+                    "y": 61.9444
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "gfx\\character\\up1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 20.8941,
+                    "y": 62.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 22.0052,
+                    "y": 61.9444
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "left",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.12,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "gfx\\character\\left2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 17,
+                    "y": 58.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "gfx\\character\\left3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 27.4479,
+                    "y": 56.9444
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "gfx\\character\\left2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 17,
+                    "y": 58.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "gfx\\character\\left1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 27.4479,
+                    "y": 58.6111
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "right",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.12,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "gfx\\character\\right2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 17,
+                    "y": 58.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "gfx\\character\\right3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 25.7812,
+                    "y": 58.6111
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "gfx\\character\\right2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 17,
+                    "y": 58.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "gfx\\character\\right1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 26.8924,
+                    "y": 56.9444
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -568,6 +967,10 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/emptywhiteroom"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/room"
     },
     {
@@ -576,7 +979,7 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/decoder"
+      "referenceTo": "/layouts/codex"
     }
   ],
   "externalEvents": [
