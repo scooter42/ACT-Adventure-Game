@@ -487,6 +487,34 @@
         "name": "gfx\\escher.jpg",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "file": "sound/hover.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\hover.mp3",
+        "userAdded": true
+      },
+      {
+        "file": "sound/4LeftEarOdds.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\4LeftEarOdds.mp3",
+        "userAdded": true
+      },
+      {
+        "file": "sound/5RightEarEvens.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\5RightEarEvens.mp3",
+        "userAdded": true
+      },
+      {
+        "file": "sound/6First Contact - Unscrambled.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\6First Contact - Unscrambled.mp3",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -597,14 +625,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 589,
-                    "y": 557
+                    "x": 100,
+                    "y": 100
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 595,
-                    "y": 555
+                    "x": 100,
+                    "y": 100
                   },
                   "customCollisionMask": []
                 }

@@ -22,27 +22,11 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.4
+    "zoomFactor": 0.52
   },
   "objectsGroups": [],
   "variables": [],
   "instances": [
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "ears",
-      "persistentUuid": "d3a31ef3-bad8-4283-b2cc-14de6960cf9e",
-      "width": 0,
-      "x": 1154,
-      "y": 47,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
     {
       "angle": 0,
       "customSize": false,
@@ -55,22 +39,6 @@
       "x": 82,
       "y": 54,
       "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "eyes",
-      "persistentUuid": "7f0f0502-e1c0-444f-b5d2-8d0a2c01db93",
-      "width": 0,
-      "x": 36,
-      "y": 663,
-      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -94,30 +62,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 406,
-      "layer": "escher",
-      "locked": false,
-      "name": "faces",
-      "persistentUuid": "4da53e80-ef1d-45d1-8554-1556f8af06ab",
-      "width": 387,
-      "x": 1553,
-      "y": 1616,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "height": 324,
       "layer": "top",
       "locked": false,
       "name": "dude",
       "persistentUuid": "2b3c0911-fb08-4279-aebe-09013d368ce9",
       "width": 134,
-      "x": 631,
-      "y": 399,
+      "x": 669,
+      "y": 578,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -290,6 +242,17 @@
             ""
           ],
           "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "FlipX"
+          },
+          "parameters": [
+            "ears",
+            "yes"
+          ],
+          "subInstructions": []
         }
       ],
       "events": []
@@ -324,11 +287,11 @@
       "conditions": [
         {
           "type": {
-            "inverted": true,
-            "value": "AnyKeyPressed"
+            "inverted": false,
+            "value": "Arret"
           },
           "parameters": [
-            ""
+            "dude"
           ],
           "subInstructions": []
         }
@@ -655,8 +618,387 @@
       "disabled": false,
       "folded": false,
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [],
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "dude",
+            "ears",
+            "",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "PosX"
+          },
+          "parameters": [
+            "dude",
+            "<",
+            "400"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": [],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ChangeLayer"
+          },
+          "parameters": [
+            "ears",
+            "\"top\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sound\\4LeftEarOdds.mp3",
+            "",
+            "50",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "ears",
+            "1100",
+            "50",
+            "\"\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "dude",
+            "ears",
+            "",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "PosX"
+          },
+          "parameters": [
+            "dude",
+            ">",
+            "600"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": [],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ChangeLayer"
+          },
+          "parameters": [
+            "ears",
+            "\"top\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sound\\5RightEarEvens.mp3",
+            "",
+            "50",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "eyes",
+            "600",
+            "700",
+            "\"\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "dude",
+            "eyes",
+            "",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ChangeLayer"
+          },
+          "parameters": [
+            "eyes",
+            "\"top\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ShowLayer"
+          },
+          "parameters": [
+            "",
+            "\"escher\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "SetLayerEffectParameter"
+          },
+          "parameters": [
+            "",
+            "\"escher\"",
+            "\"Effect\"",
+            "\"offset\"",
+            "RandomInRange(-400, 400)"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "faces",
+            "600",
+            "100",
+            "\"\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "dude",
+            "faces",
+            "",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": [],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "sound\\6First Contact - Unscrambled.mp3",
+            "2",
+            "yes",
+            "50",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ChangeLayer"
+          },
+          "parameters": [
+            "eyes",
+            "\"top\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ChangeLayer"
+          },
+          "parameters": [
+            "faces",
+            "\"top\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "StopSoundCanal"
+          },
+          "parameters": [
+            "",
+            "5"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "StopSoundCanal"
+          },
+          "parameters": [
+            "",
+            "1"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"start\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Timer"
+          },
+          "parameters": [
+            "",
+            "15",
+            "\"start\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "SoundPlaying"
+          },
+          "parameters": [
+            "",
+            "2"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Room\"",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
       "events": []
     }
   ],
@@ -670,7 +1012,31 @@
       "name": "escher",
       "visibility": false,
       "cameras": [],
-      "effects": []
+      "effects": [
+        {
+          "effectType": "Glitch",
+          "name": "Effect",
+          "doubleParameters": {
+            "animationFrequency": 4,
+            "blueX": 10,
+            "blueY": -4,
+            "direction": 0,
+            "fillMode": 0,
+            "greenX": 10,
+            "greenY": -4,
+            "minSize": 32,
+            "offset": 100,
+            "redX": 2,
+            "redY": 2,
+            "sampleSize": 256,
+            "slices": 10
+          },
+          "stringParameters": {},
+          "booleanParameters": {
+            "average": false
+          }
+        }
+      ]
     },
     {
       "ambientLightColorB": 0,
@@ -681,6 +1047,26 @@
       "name": "",
       "visibility": true,
       "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        },
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        },
         {
           "defaultSize": true,
           "defaultViewport": true,
@@ -718,7 +1104,7 @@
       ]
     },
     {
-      "ambientLightColorB": 1702453580,
+      "ambientLightColorB": 1702453632,
       "ambientLightColorG": 8940824,
       "ambientLightColorR": 1,
       "followBaseLayerCamera": false,
@@ -729,5 +1115,10 @@
       "effects": []
     }
   ],
-  "behaviorsSharedData": []
+  "behaviorsSharedData": [
+    {
+      "name": "TopDownMovement",
+      "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+    }
+  ]
 }

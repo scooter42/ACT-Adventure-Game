@@ -777,6 +777,10 @@
     {
       "name": "TimedBackAndForthMirroredMovement",
       "type": "TimedBackAndForthMovement::TimedBackAndForthMirroredMovement"
+    },
+    {
+      "name": "TopDownMovement",
+      "type": "TopDownMovementBehavior::TopDownMovementBehavior"
     }
   ]
 }
